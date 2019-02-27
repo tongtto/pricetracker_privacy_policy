@@ -5,3 +5,5 @@
 3. User can untrack commodities at any time by clicking delete button on options page. The pricetracker would send http request to delete information of that commodity in Amazon database.
 
 4. If user haven't track any page or untrack all the tracked commodities, user's information like email address would not be recorded in the Amazon database or anywhere in the extension.
+
+5. For user security, we use HTTPS protocol.
